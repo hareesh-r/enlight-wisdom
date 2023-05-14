@@ -1538,3 +1538,92 @@ section {
 .mission-vision {
   margin-top: 20px;
 }
+
+.colu {
+  flex-direction: column;
+}
+
+
+.scroll-parent {
+  position: relative;
+  width: 100vw;
+  height: 10rem;
+  overflow-x: hidden;
+}
+
+.scroll-element1 {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  flex-wrap: nowrap;
+  animation: primary 5s linear infinite;
+}
+
+.scroll-element2 {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  flex-wrap: nowrap;
+  animation: secondary 5s linear infinite;
+}
+
+@keyframes primary {
+  from {
+    left: 0%;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes secondary {
+  from {
+    left: 100%;
+  }
+
+  to {
+    left: 0%;
+  }
+}
+
+.school {
+  background-image: url("https://img.icons8.com/emoji/48/school-emoji.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.college {
+  background-image: url("https://img.icons8.com/emoji/48/classical-building.png");
+  background-repeat: no-repeat;
+  background-position: right;
+
+}
+
+.itsp {
+  background-image: url("https://img.icons8.com/emoji/48/laptop-emoji.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.career-guidance {
+  background-image: url("https://img.icons8.com/emoji/48/briefcase-emoji.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.career-guidance h5,
+.itsp h5,
+.college h5,
+.school h5,
+.career-guidance h3,
+.itsp h3,
+.college h3,
+.school h3 {
+  opacity: 1 !important;
+  z-index: 100;
+}

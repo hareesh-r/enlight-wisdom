@@ -217,5 +217,37 @@
 		};
 
 		targets.forEach(lazyLoad);
+
+		var element = document.getElementById('stats');
+
+		window.addEventListener('scroll', function () {
+			// Get the position of the element
+			var position = element.getBoundingClientRect();
+
+			// Check if the element is visible on the screen
+			if (position.top >= 0 && position.bottom <= window.innerHeight) {
+				setTimeout(() => {
+					const counters = document.querySelectorAll('.stat-value');
+					const speed = 500;
+
+					counters.forEach((counter) => {
+						const animate = () => {
+							const value = +counter.getAttribute('akhi');
+							const data = +counter.innerText;
+
+							const time = value / speed;
+							if (data < value) {
+								counter.innerText = Math.ceil(data + time);
+								setTimeout(animate, 1);
+							} else {
+								counter.innerText = value;
+							}
+						};
+
+						animate();
+					});
+				}, 1000);
+			}
+		});
 	});
 })();
