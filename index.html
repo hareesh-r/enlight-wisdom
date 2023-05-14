@@ -45,14 +45,14 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -81,7 +81,7 @@
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
       <div class="d-flex col align-items-center justify-content-start"><a href="index.html" class="logo"><img
-            src="assets/img/logo.png" alt="" class="img-fluid"></a>
+            loading="lazy" decoding="async" src="assets/img/logo.png" alt="" class="img-fluid"></a>
         <!-- <h1 class="logo"><a href="index.html">Enlight Wisdom</a></h1> -->
       </div>
 
@@ -93,7 +93,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto " href="#programmes">Programs</a></li>
-          <li><a class="nav-link scrollto" href="#workshops">Workshops</a></li>
+          <li><a class="nav-link scrollto" href="#programs">Workshops</a></li>
           <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
@@ -116,16 +116,16 @@
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      </nav>
 
     </div>
-  </header><!-- End Header -->
+  </header>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="position-absolute hero-welcome" data-aos="fade-up" data-aos-delay="500">
       <h1>Welcome to Enlight Wisdom</h1>
-      <h2>Join us and learn the skills that will shape tomorrow's world</h2>
+      <h2>Get Ready to Enlighten and Shine</h2>
       <a href="#about" class="btn-get-started scrollto">Get Started</a>
     </div>
 
@@ -137,14 +137,17 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item">
-          <img class="d-block w-100" src="./assets/img/robot-11.jpg" alt="Second slide">
+          <img loading="lazy" decoding="async" class="d-block w-100" data-lazy="./assets/img/robot-11.jpg"
+            alt="Second slide">
         </div>
         <div class="carousel-item active">
-          <img class="d-block w-100" src="./assets/img/robot-8.jpg" alt="First slide">
+          <img loading="lazy" decoding="async" class="d-block w-100" data-lazy="./assets/img/robot-8.jpg"
+            alt="First slide">
         </div>
 
         <div class="carousel-item">
-          <img class="d-block w-100" src="./assets/img/robot-12.jpg" alt="Third slide">
+          <img loading="lazy" decoding="async" class="d-block w-100" data-lazy="./assets/img/robot-12.jpg"
+            alt="Third slide">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -166,30 +169,50 @@
 
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            <img loading="lazy" decoding="async" data-lazy="assets/img/about.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <h3>About Us</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore
-              magna aliqua.
+              Our company is a new generation educational and career hub that provides IT solutions to school and
+              college students.
             </p>
             <ul>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
-                pariatur.</li>
+              <li><i class="bi bi-check-circle"></i> We aim to educate and enlighten students with future technologies
+                like robotics, artificial intelligence, cloud computing, and more.</li>
+              <li><i class="bi bi-check-circle"></i> We are dedicated to empowering students and building their career
+                by bridging the knowledge skill capacity through digital learning, technical training, and career
+                guidance workshops.</li>
+              <li><i class="bi bi-check-circle"></i> Additionally, we offer app development services as part of our IT
+                solutions to help students hone their skills in this in-demand field.</li>
             </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-              voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
           </div>
         </div>
+        <div class="row mission-vision">
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+            <h4>Mission & Vision</h4>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> Our mission is to provide students with cutting-edge technologies
+                and the knowledge and skills necessary to succeed in their future careers.</li>
+              <li><i class="bi bi-check-circle"></i> We believe that every student has the potential to achieve success,
+                and we are committed to helping them unlock their full potential through IT solutions, internships, app
+                development, and other career development opportunities.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+            <h4>Future Plans</h4>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> Our future plans include expanding our course offerings and IT
+                solutions, as well as increasing the number of internship opportunities we provide to students.</li>
+              <li><i class="bi bi-check-circle"></i> We also plan to establish partnerships with colleges and
+                universities to provide students with a seamless transition from education to employment through our IT
+                solutions and career development workshops.</li>
+              <li><i class="bi bi-check-circle"></i> We will continue to develop the Centre of Excellence for schools to
+                help transform education and provide innovative solutions to improve student outcomes.</li>
+            </ul>
+          </div>
+        </div>
+
 
       </div>
     </section><!-- End About Section -->
@@ -199,147 +222,145 @@
       <div class="container">
 
         <div class="section-title">
-          <span>Programs</span>
-          <h2>Programs</h2>
-          <p>Explore our cutting-edge programs in Robotics, Machine Learning, and Deep Learning for college and school
-            students, and prepare for a future of limitless possibilities</p>
+          <span>programs</span>
+          <h2>programs</h2>
         </div>
 
         <div class="row" data-aos="fade-up">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="programmes-flters">
               <li data-filter="*" class="filter-active">All Courses</li>
-              <li data-filter=".filter-junior">Junior</li>
-              <li data-filter=".filter-college">College</li>
-              <li data-filter=".filter-advanced">Advanced</li>
+              <li data-filter=".filter-robotics">Robotics</li>
+              <li data-filter=".filter-advanced">AI and Machine Learning</li>
+              <li data-filter=".filter-college">Other Courses</li>
             </ul>
           </div>
         </div>
 
         <div class="row programmes-container" data-aos="fade-up" data-aos-delay="150">
+          <script>
+            var workshops = document.querySelector('.programmes-container');
 
-          <div class="col-lg-4 col-md-6 programmes-item filter-junior">
-            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+            const programList = [{
+                title: `Young Robotics Engineer (class 2 to 5)`,
+                description: `Robotics (Age 10 above)`,
+                img: `assets/img/portfolio/portfolio-5.jpg`,
+                realTitle: `Robotics for (Age 10 above) - Young Robotics Engineer (class 2 to 5)`,
+                dataFilter: `filter-robotics`
+              },
+
+              {
+                title: `Junior Robotics Engineer (class 6 to 8)`,
+                description: `Robotics (Age 10 above)`,
+                img: `assets/img/portfolio/portfolio-3.jpg`,
+                realTitle: `Robotics for (Age 10 above) - Junior Robotics Engineer (class 6 to 8)`,
+                dataFilter: `filter-robotics`
+              },
+
+              {
+                title: `Senior Robotics Engineer (Class 9 to 12)`,
+                description: `Robotics (Age 10 above)`,
+                img: `assets/img/portfolio/portfolio-9.jpg`,
+                realTitle: `Robotics for (Age 10 above) - Senior Robotics Engineer (Class 9 to 12)`,
+                dataFilter: `filter-robotics`
+              },
+
+              {
+                title: `Coding (Age 12 to 18)`,
+                description: `Robotics (Age 10 above)`,
+                img: `assets/img/portfolio/portfolio-19.jpg`,
+                realTitle: `Robotics for (Age 10 above) - Coding (Age 12 to 18)`,
+                dataFilter: `filter-robotics`
+              },
+
+              {
+                title: `AI and Automation Boot Camp`,
+                description: `AI and Machine Learning (UG and PG)`,
+                img: `assets/img/portfolio/portfolio-16.jpg`,
+                realTitle: `AI and Machine Learning (UG and PG) - AI and Automation Boot Camp`,
+                dataFilter: `filter-advanced`
+              },
+
+              {
+                title: `Machine Leaning`,
+                description: `AI and Machine Learning (UG and PG)`,
+                img: `assets/img/portfolio/portfolio-17.jpg`,
+                realTitle: `AI and Machine Learning (UG and PG) - Machine Leaning`,
+                dataFilter: `filter-advanced`
+              },
+
+              {
+                title: `Python Boot Camp`,
+                description: `AI and Machine Learning (UG and PG)`,
+                img: `assets/img/portfolio/portfolio-18.jpg`,
+                realTitle: `AI and Machine Learning (UG and PG) - Python Boot Camp`,
+                dataFilter: `filter-advanced`
+              },
+
+              {
+                title: `Data Analytics (R studio)`,
+                description: `AI and Machine Learning (UG and PG)`,
+                img: `assets/img/portfolio/portfolio-15.jpg`,
+                realTitle: `AI and Machine Learning (UG and PG) - Data Analytics (R studio)`,
+                dataFilter: `filter-advanced`
+              },
+              {
+                title: `Dance and Music (Class 5 and above)`,
+                description: `Other Courses (Age 12 above)`,
+                img: `assets/img/portfolio/portfolio-12.jpg`,
+                realTitle: `Other Courses (Age 12 above) - Dance and Music (Class 5 and above)`,
+                dataFilter: `filter-college`
+              },
+              {
+                title: `Excel to Tally (Class 11 and above)`,
+                description: `Other Courses (Age 12 above)`,
+                img: `assets/img/portfolio/portfolio-14.jpg`,
+                realTitle: `Other Courses (Age 12 above) - Excel to Tally (Class 11 and above)`,
+                dataFilter: `filter-college`
+              },
+
+              {
+                title: `Road to Ms office (Class 8 and above)`,
+                description: `Other Courses (Age 12 above)`,
+                img: `assets/img/portfolio/portfolio-13.jpg`,
+                realTitle: `Other Courses (Age 12 above) - Road to Ms office (Class 8 and above)`,
+                dataFilter: `filter-college`
+              },
+
+
+
+              {
+                title: `Chess`,
+                description: `Other Courses (Age 12 above)`,
+                img: `assets/img/portfolio/portfolio-11.jpg`,
+                realTitle: `Other Courses (Age 12 above) - Chess`,
+                dataFilter: `filter-college`
+              },
+            ];
+
+            var appendData = ``;
+
+            programList.forEach((program) => {
+              appendData += `
+			<div class="col-lg-4 col-md-6 programmes-item ${program.dataFilter}">
+            <img loading="lazy" decoding="async" data-lazy="${program.img}" class="img-fluid" alt="">
             <div class="programmes-info">
-              <h4>Junior 1</h4>
-              <p>Junior</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="programmesGallery"
+              <h4>${program.title}</h4>
+              <p>${program.description}</p>
+              <a href="${program.img}" data-gallery="programmesGallery"
                 class="programmes-lightbox preview-link"
-                title="Our programs for school students offer an exciting opportunity to learn and engage in hands-on activities related to robotics, coding, and artificial intelligence. With a focus on developing foundational skills in science, technology, engineering, and mathematics (STEM), our programs are designed to be both fun and educational. Students will have the chance to work with various tools and technologies to build and program robots, explore machine learning and deep learning concepts, and develop critical thinking and problem-solving skills that are essential for success in the 21st century. Whether your child is interested in pursuing a career in STEM or simply wants to learn more about these fascinating fields, our programs provide an excellent platform to explore and discover the world of robotics and artificial intelligence "><i
+                title="${program.realTitle}"><i
                   class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link"
-                title="Our programs for school students offer an exciting opportunity to learn and engage in hands-on activities related to robotics, coding, and artificial intelligence. With a focus on developing foundational skills in science, technology, engineering, and mathematics (STEM), our programs are designed to be both fun and educational. Students will have the chance to work with various tools and technologies to build and program robots, explore machine learning and deep learning concepts, and develop critical thinking and problem-solving skills that are essential for success in the 21st century. Whether your child is interested in pursuing a career in STEM or simply wants to learn more about these fascinating fields, our programs provide an excellent platform to explore and discover the world of robotics and artificial intelligence "><i
+                title="${program.realTitle}"><i
                   class="bx bx-link"></i></a>
             </div>
           </div>
+			`;
+            });
 
-          <div class="col-lg-4 col-md-6 programmes-item filter-advanced">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-            <div class="programmes-info">
-              <h4>Advanced 3</h4>
-              <p>Advanced</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="programmesGallery"
-                class="programmes-lightbox preview-link" title="Detiled"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 programmes-item filter-junior">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-            <div class="programmes-info">
-              <h4>Junior 2</h4>
-              <p>Junior</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="programmesGallery"
-                class="programmes-lightbox preview-link"
-                title="Our programs for school students offer an exciting opportunity to learn and engage in hands-on activities related to robotics, coding, and artificial intelligence. With a focus on developing foundational skills in science, technology, engineering, and mathematics (STEM), our programs are designed to be both fun and educational. Students will have the chance to work with various tools and technologies to build and program robots, explore machine learning and deep learning concepts, and develop critical thinking and problem-solving skills that are essential for success in the 21st century. Whether your child is interested in pursuing a career in STEM or simply wants to learn more about these fascinating fields, our programs provide an excellent platform to explore and discover the world of robotics and artificial intelligence "><i
-                  class="bx bx-plus"></i></a>
-              <a href="programmes-details.html" class="details-link"
-                title="Our programs for school students offer an exciting opportunity to learn and engage in hands-on activities related to robotics, coding, and artificial intelligence. With a focus on developing foundational skills in science, technology, engineering, and mathematics (STEM), our programs are designed to be both fun and educational. Students will have the chance to work with various tools and technologies to build and program robots, explore machine learning and deep learning concepts, and develop critical thinking and problem-solving skills that are essential for success in the 21st century. Whether your child is interested in pursuing a career in STEM or simply wants to learn more about these fascinating fields, our programs provide an excellent platform to explore and discover the world of robotics and artificial intelligence "><i
-                  class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 programmes-item filter-college">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="programmes-info">
-              <h4>Robotics with Deep Learning</h4>
-              <p>College</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="programmesGallery"
-                class="programmes-lightbox preview-link"
-                title="Robotics with Deep Learning is an exciting and rapidly growing field that combines robotics and artificial intelligence techniques to create intelligent robots that can learn and adapt to new situations. Our program in Robotics with Deep Learning provides students with hands-on experience in building and programming robots using deep learning algorithms and techniques. Students will learn how to train robots to perform complex tasks using various sensors and data sources, and develop advanced skills in computer vision, natural language processing, and other areas of deep learning. With a focus on practical applications and real-world problem-solving, our program prepares students for careers in robotics, artificial intelligence, and related fields, and provides a unique opportunity to be at the forefront of this exciting and rapidly evolving field."><i
-                  class="bx bx-plus"></i></a>
-              <a href="programmes-details.html" class="details-link"
-                title="Robotics with Deep Learning is an exciting and rapidly growing field that combines robotics and artificial intelligence techniques to create intelligent robots that can learn and adapt to new situations. Our program in Robotics with Deep Learning provides students with hands-on experience in building and programming robots using deep learning algorithms and techniques. Students will learn how to train robots to perform complex tasks using various sensors and data sources, and develop advanced skills in computer vision, natural language processing, and other areas of deep learning. With a focus on practical applications and real-world problem-solving, our program prepares students for careers in robotics, artificial intelligence, and related fields, and provides a unique opportunity to be at the forefront of this exciting and rapidly evolving field."><i
-                  class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 programmes-item filter-advanced">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-            <div class="programmes-info">
-              <h4>Advanced 2</h4>
-              <p>Advanced</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="programmesGallery"
-                class="programmes-lightbox preview-link" title="Advanced 2"><i class="bx bx-plus"></i></a>
-              <a href="programmes-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 programmes-item filter-junior">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="programmes-info">
-              <h4>Junior 3</h4>
-              <p>Junior</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="programmesGallery"
-                class="programmes-lightbox preview-link"
-                title="Our programs for school students offer an exciting opportunity to learn and engage in hands-on activities related to robotics, coding, and artificial intelligence. With a focus on developing foundational skills in science, technology, engineering, and mathematics (STEM), our programs are designed to be both fun and educational. Students will have the chance to work with various tools and technologies to build and program robots, explore machine learning and deep learning concepts, and develop critical thinking and problem-solving skills that are essential for success in the 21st century. Whether your child is interested in pursuing a career in STEM or simply wants to learn more about these fascinating fields, our programs provide an excellent platform to explore and discover the world of robotics and artificial intelligence "><i
-                  class="bx bx-plus"></i></a>
-              <a href="programmes-details.html" class="details-link"
-                title="Our programs for school students offer an exciting opportunity to learn and engage in hands-on activities related to robotics, coding, and artificial intelligence. With a focus on developing foundational skills in science, technology, engineering, and mathematics (STEM), our programs are designed to be both fun and educational. Students will have the chance to work with various tools and technologies to build and program robots, explore machine learning and deep learning concepts, and develop critical thinking and problem-solving skills that are essential for success in the 21st century. Whether your child is interested in pursuing a career in STEM or simply wants to learn more about these fascinating fields, our programs provide an excellent platform to explore and discover the world of robotics and artificial intelligence "><i
-                  class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 programmes-item filter-college">
-            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="programmes-info">
-              <h4>Robotics with AI</h4>
-              <p>College</p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="programmesGallery"
-                class="programmes-lightbox preview-link"
-                title="Robotics with Machine Learning and AI is a cutting-edge field that combines the power of robotics with advanced machine learning and artificial intelligence techniques. Our program in Robotics with Machine Learning and AI provides students with hands-on experience in building and programming robots that can learn and adapt to new situations, using advanced algorithms and techniques from the fields of machine learning and artificial intelligence. Students will have the opportunity to work with a variety of tools and technologies, including sensors, actuators, microcontrollers, and machine learning libraries, to build intelligent robots that can perform complex tasks and interact with the world in a variety of ways. With a focus on practical applications and real-world problem-solving, our program prepares students for careers in robotics, machine learning, AI, and related fields, and provides a unique opportunity to be at the forefront of this exciting and rapidly evolving field."><i
-                  class="bx bx-plus"></i></a>
-              <a href="programmes-details.html" class="details-link"
-                title="Robotics with Machine Learning and AI is a cutting-edge field that combines the power of robotics with advanced machine learning and artificial intelligence techniques. Our program in Robotics with Machine Learning and AI provides students with hands-on experience in building and programming robots that can learn and adapt to new situations, using advanced algorithms and techniques from the fields of machine learning and artificial intelligence. Students will have the opportunity to work with a variety of tools and technologies, including sensors, actuators, microcontrollers, and machine learning libraries, to build intelligent robots that can perform complex tasks and interact with the world in a variety of ways. With a focus on practical applications and real-world problem-solving, our program prepares students for careers in robotics, machine learning, AI, and related fields, and provides a unique opportunity to be at the forefront of this exciting and rapidly evolving field."><i
-                  class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 programmes-item filter-college">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-            <div class="programmes-info">
-              <h4>College 3</h4>
-              <p>College</p>
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="programmesGallery"
-                class="programmes-lightbox preview-link"
-                title="Our programs for college students are designed to provide advanced training and hands-on experience in cutting-edge technologies such as robotics, machine learning, and deep learning. With a focus on practical applications and real-world problem-solving, our programs offer a unique opportunity for students to gain valuable skills and expertise that are in high demand in today's job market. Through a combination of classroom instruction, lab work, and project-based learning, students will have the chance to work with state-of-the-art tools and technologies, develop advanced programming and data analysis skills, and explore the latest research and innovations in the field of artificial intelligence. Whether you are pursuing a career in engineering, computer science, data science, or another related field, our programs can help you gain the knowledge and experience you need to succeed in today's fast-paced and rapidly evolving technological landscape "><i
-                  class="bx bx-plus"></i></a>
-              <a href="programmes-details.html" class="details-link"
-                title="Our programs for college students are designed to provide advanced training and hands-on experience in cutting-edge technologies such as robotics, machine learning, and deep learning. With a focus on practical applications and real-world problem-solving, our programs offer a unique opportunity for students to gain valuable skills and expertise that are in high demand in today's job market. Through a combination of classroom instruction, lab work, and project-based learning, students will have the chance to work with state-of-the-art tools and technologies, develop advanced programming and data analysis skills, and explore the latest research and innovations in the field of artificial intelligence. Whether you are pursuing a career in engineering, computer science, data science, or another related field, our programs can help you gain the knowledge and experience you need to succeed in today's fast-paced and rapidly evolving technological landscape "><i
-                  class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 programmes-item filter-advanced">
-            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-            <div class="programmes-info">
-              <h4>Advanced 3</h4>
-              <p>Advanced</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="programmesGallery"
-                class="programmes-lightbox preview-link" title="Advanced 3"><i class="bx bx-plus"></i></a>
-              <a href="programmes-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
+            workshops.innerHTML = appendData;
+          </script>
 
         </div>
 
@@ -347,63 +368,74 @@
     </section><!-- End programmes Section -->
 
     <!-- ======= Services Section ======= -->
-    <section id="workshops" class="workshops">
+    <section id="programs" class="programs">
       <div class="container">
 
         <div class="section-title">
-          <span>Workshops</span>
-          <h2>Workshops</h2>
-          <p>Students engage in a hands-on learning experience through a series of activities, discussions, and
-            exercises that are designed to teach specific skills or knowledge related to a particular topic or field</p>
+          <span>workshops</span>
+          <h2>workshops</h2>
+          <p>Our services include digital learning, technical training, and career guidance workshops, as well as IT
+            solutions such as app development, website development, software development, network design and
+            implementation, cloud hosting, and more. We offer courses in robotics, artificial intelligence, cloud
+            computing, machine learning, big data, and other future technologies to help students stay ahead of the
+            curve. We also provide personalized career guidance to help students choose the right career path</p>
         </div>
 
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="icon-box">
-              <div class="icon"><img style="width: 64px;
-                    height: 64px;"
-                  src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/null/external-machine-learning-robotics-flaticons-lineal-color-flat-icons.png" />
+        <div class="row workshop-details">
+          <script>
+            // To get data from JSON
+            const data = [{
+              icon: "https://img.icons8.com/ios/50/graduation-cap.png",
+              title: "Centre of Excellence for Schools",
+              content: "We are currently in the process of developing a Centre of Excellence for schools. The Centre of Excellence will serve as a hub for innovative educational technologies and methodologies, offering training and development opportunities for teachers and students alike. Through this initiative, we aim to revolutionize the way education is delivered and create a brighter future for all students"
+            }, {
+              icon: "https://img.icons8.com/ios/50/internship.png",
+              title: "Internship workshops",
+              content: "Our internship workshops are designed to provide students with practical experience in the latest technologies and trends. We offer internships in machine learning, AI, big data, app development, and web designing, giving students the opportunity to gain valuable experience and develop their skills in a real-world environment"
+            }, {
+              icon: "https://img.icons8.com/ios/100/graduation-scroll.png",
+              title: "Educational Consulting",
+              content: "As educational consultants, we play an important role in guiding students to choose the right college and career path. We help students come out with flying colors by providing them with the necessary information and resources to succeed in their academic and professional lives, including IT solutions, app development, and internship opportunities in machine learning, AI, and big data"
+            }, {
+              icon: "https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/external-app-programming-and-coding-flatart-icons-outline-flatarticons-1.png",
+              title: "APP Development",
+              content: `- We bring your mobile app ideas to life with cutting-edge development services for iOS and Android platforms.
+                - Our expert developers ensure timely and budget-friendly delivery of customized mobile applications for your business or e-commerce platform
+                `
+            }, {
+              icon: "https://img.icons8.com/dotty/80/erp-system.png",
+              title: "ERP Solutions",
+              content: `- Streamline and optimize your business operations with our flexible and scalable enterprise resource planning solutions.
+                - Get greater visibility and control over core business processes such as finance, HR, and supply chain management with our customized ERP solutions
+                `
+            }, {
+              icon: "https://img.icons8.com/dotty/80/web.png",
+              title: "Web Designing",
+              content: `- Create a professional and engaging online presence with our custom web designing services.
+                - Our team uses the latest technologies and design trends to create responsive websites that reflect your brand identity and meet your business goals
+                `
+            }, {
+              icon: "https://img.icons8.com/ios/100/robot.png",
+              title: "Robotics and Automation Solutions",
+              content: `- Optimize your business processes and reduce costs with our customized robotics and automation solutions.
+                - Our experts work closely with you to identify areas where robotics and automation can improve your operations and increase efficiency
+                `
+            }]
+
+            let markup = '';
+            data.forEach(item => {
+              markup += `<div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+              <div class="icon-box">
+                <div class="icon"><img loading="lazy" decoding="async" style="width: 64px; height: 64px;" src="${item.icon}" />
+                </div>
+                <h4><a href="">${item.title}</a></h4>
+                <p>${item.content}</p>
               </div>
-              <h4><a href="">Machine Learning</a></h4>
-              <p>Machine learning is a branch of artificial intelligence that allows computer systems to automatically
-                learn and improve from experience without being explicitly programmed</p>
-            </div>
-          </div>
+            </div>`
+            });
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up"
-            data-aos-delay="150">
-            <div class="icon-box">
-              <div class="icon"><img style="width: 64px;
-                    height: 64px;" src="https://img.icons8.com/color/48/null/python--v1.png" /></div>
-              <h4><a href="">Python</a></h4>
-              <p>Python is a widely-used, high-level programming language known for its simplicity and versatility in
-                various fields such as web development, data analysis, and artificial intelligence</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up"
-            data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><img style="width: 64px;
-                    height: 64px;" src="https://img.icons8.com/fluency/96/null/r-project.png" /></div>
-              <h4><a href="">R studio</a></h4>
-              <p>R is an open-source programming language and environment used for statistical computing, data analysis,
-                and visualization, with a vast collection of packages for various fields</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="450">
-            <div class="icon-box">
-              <div class="icon"><img style="width: 64px;
-                    height: 64px;"
-                  src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/null/external-data-science-media-agency-flaticons-lineal-color-flat-icons-2.png" />
-              </div>
-              <h4><a href="">Data Science</a></h4>
-              <p>Data Science is a field that involves using scientific methods and processes to extract insights and
-                knowledge from data for various applications</p>
-            </div>
-          </div>
-
+            document.querySelector(".workshop-details").innerHTML = markup;
+          </script>
         </div>
 
       </div>
@@ -420,27 +452,27 @@
         <div class="row d-flex align-items-center">
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+            <img loading="lazy" decoding="async" data-lazy="assets/img/clients/client-1.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+            <img loading="lazy" decoding="async" data-lazy="assets/img/clients/client-2.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+            <img loading="lazy" decoding="async" data-lazy="assets/img/clients/client-3.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+            <img loading="lazy" decoding="async" data-lazy="assets/img/clients/client-4.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+            <img loading="lazy" decoding="async" data-lazy="assets/img/clients/client-5.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+            <img loading="lazy" decoding="async" data-lazy="assets/img/clients/client-6.png" class="img-fluid" alt="">
           </div>
 
         </div>
@@ -470,25 +502,32 @@
           <h2>Gallery</h2>
         </div>
         <div class="row">
-          <div class="d-flex justify-content-center col-md-3 col-sm-4 col-xs-6"><img class="img-responsive"
+          <div class="d-flex justify-content-center col-md-3 col-sm-4 col-xs-6"><img loading="lazy" decoding="async"
+              class="img-responsive"
               src="http://2.bp.blogspot.com/-H6MAoWN-UIE/TuRwLbHRSWI/AAAAAAAABBk/89iiEulVsyg/s400/Free%2BNature%2BPhoto.jpg" />
           </div>
-          <div class="d-flex justify-content-center col-md-3 col-sm-4 col-xs-6"><img class="img-responsive"
+          <div class="d-flex justify-content-center col-md-3 col-sm-4 col-xs-6"><img loading="lazy" decoding="async"
+              class="img-responsive"
               src="http://2.bp.blogspot.com/-H6MAoWN-UIE/TuRwLbHRSWI/AAAAAAAABBk/89iiEulVsyg/s400/Free%2BNature%2BPhoto.jpg" />
           </div>
-          <div class="d-flex justify-content-center col-md-3 col-sm-4 col-xs-6"><img class="img-responsive"
+          <div class="d-flex justify-content-center col-md-3 col-sm-4 col-xs-6"><img loading="lazy" decoding="async"
+              class="img-responsive"
               src="http://2.bp.blogspot.com/-H6MAoWN-UIE/TuRwLbHRSWI/AAAAAAAABBk/89iiEulVsyg/s400/Free%2BNature%2BPhoto.jpg" />
           </div>
-          <div class="d-flex justify-content-center col-md-3 col-sm-4 col-xs-6"><img class="img-responsive"
+          <div class="d-flex justify-content-center col-md-3 col-sm-4 col-xs-6"><img loading="lazy" decoding="async"
+              class="img-responsive"
               src="http://2.bp.blogspot.com/-H6MAoWN-UIE/TuRwLbHRSWI/AAAAAAAABBk/89iiEulVsyg/s400/Free%2BNature%2BPhoto.jpg" />
           </div>
-          <div class="d-flex justify-content-center col-md-3 col-sm-4 col-xs-6"><img class="img-responsive"
+          <div class="d-flex justify-content-center col-md-3 col-sm-4 col-xs-6"><img loading="lazy" decoding="async"
+              class="img-responsive"
               src="http://2.bp.blogspot.com/-H6MAoWN-UIE/TuRwLbHRSWI/AAAAAAAABBk/89iiEulVsyg/s400/Free%2BNature%2BPhoto.jpg" />
           </div>
-          <div class="d-flex justify-content-center col-md-3 col-sm-4 col-xs-6"><img class="img-responsive"
+          <div class="d-flex justify-content-center col-md-3 col-sm-4 col-xs-6"><img loading="lazy" decoding="async"
+              class="img-responsive"
               src="http://2.bp.blogspot.com/-H6MAoWN-UIE/TuRwLbHRSWI/AAAAAAAABBk/89iiEulVsyg/s400/Free%2BNature%2BPhoto.jpg" />
           </div>
-          <div class="d-flex justify-content-center col-md-3 col-sm-4 col-xs-6"><img class="img-responsive"
+          <div class="d-flex justify-content-center col-md-3 col-sm-4 col-xs-6"><img loading="lazy" decoding="async"
+              class="img-responsive"
               src="http://2.bp.blogspot.com/-H6MAoWN-UIE/TuRwLbHRSWI/AAAAAAAABBk/89iiEulVsyg/s400/Free%2BNature%2BPhoto.jpg" />
           </div>
         </div>
@@ -502,61 +541,101 @@
         <div class="section-title">
           <span>Team</span>
           <h2>Team</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
         </div>
 
-        <div class="row">
+        <div class="row team-container-top">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
             <div class="member">
-              <img src="assets/img/team/team-1.jpg" alt="">
-              <h4>Bezaleel</h4>
-              <span>Chief Executive Officer</span>
+              <img loading="lazy" decoding="async" data-lazy="assets/img/team/team-1.jpg" alt="">
+              <h4>Bezaleel/Beslee</h4>
+              <span>Managing Director/Founder</span>
               <p>
-                Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut
-                aut
-              </p>
-              <div class="social">
-                <a href="https://www.youtube.com/@enlightwisdom259/featured"><i class="bi bi-youtube"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href="https://www.instagram.com/enlightwisdom_/"><i class="bi bi-instagram"></i></a>
-                <a href="https://www.linkedin.com/company/enlightwisdom/about/"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
+                M tech Robotics
+                Experienced Robotics engineer and international Robotics Trainer
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
-            <div class="member">
-              <img src="assets/img/team/team-2.jpg" alt="">
-              <h4>Bezaleel </h4>
-              <span>Product Manager</span>
-              <p>
-                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
               </p>
-              <div class="social">
-                <a href="https://www.youtube.com/@enlightwisdom259/featured"><i class="bi bi-youtube"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href="https://www.instagram.com/enlightwisdom_/"><i class="bi bi-instagram"></i></a>
-                <a href="https://www.linkedin.com/company/enlightwisdom/about/"><i class="bi bi-linkedin"></i></a>
-              </div>
             </div>
           </div>
+          <script>
+            const teamArray = [{
+                "name": "Abraham",
+                "role": "Educational and Technical Advisor",
+                "profileImage": "/assets/img/team/team-2.jpg"
+              },
+              {
+                "name": "Vinodhini",
+                "role": "Educational Advisory",
+                "profileImage": "/assets/img/team/team-2.jpg"
+              },
+              {
+                "name": "Samuel",
+                "role": "Medical Consultant/Co-Founder",
+                "profileImage": "/assets/img/team/team-2.jpg"
+              },
+              {
+                "name": "Scarlet",
+                "role": "Digital Marketing specialist",
+                "profileImage": "/assets/img/team/team-2.jpg"
+              },
+              {
+                "name": "Surya Narayanan",
+                "role": "Lead Technical Consultant",
+                "profileImage": "/assets/img/team/team-2.jpg"
+              },
+              {
+                "name": "Vaishali",
+                "role": "Soft Skills Consultant",
+                "profileImage": "/assets/img/team/team-2.jpg"
+              },
+              {
+                "name": "Karthy",
+                "role": "Technical Consultant, Canada",
+                "profileImage": "/assets/img/team/team-2.jpg"
+              },
+              {
+                "name": "Selvarani",
+                "role": "Director/Co- Founder",
+                "profileImage": "/assets/img/team/team-2.jpg"
+              },
+              {
+                "name": "Dr Abigail",
+                "role": "Medical Advisory",
+                "profileImage": "/assets/img/team/team-2.jpg"
+              }
+            ];
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
-            <div class="member">
-              <img src="assets/img/team/team-3.jpg" alt="">
-              <h4>Bezaleel </h4>
-              <span>CTO</span>
-              <p>
-                Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
-              </p>
-              <div class="social">
-                <a href="https://www.youtube.com/@enlightwisdom259/featured"><i class="bi bi-youtube"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href="https://www.instagram.com/enlightwisdom_/"><i class="bi bi-instagram"></i></a>
-                <a href="https://www.linkedin.com/company/enlightwisdom/about/"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
+            const teamContainer = document.querySelector('.team-container-top');
+
+            teamArray.forEach(member => {
+              const memberContainer = document.createElement('div');
+              memberContainer.classList.add('col-lg-4', 'col-md-6', 'd-flex', 'align-items-stretch');
+              memberContainer.setAttribute('data-aos', 'zoom-in');
+
+              const innerDiv = document.createElement('div');
+              innerDiv.classList.add('member');
+
+              const img = document.createElement('img');
+              img.setAttribute('loading', 'lazy');
+              img.setAttribute('decoding', 'async');
+              img.setAttribute('data-lazy', member.profileImage);
+              img.setAttribute('alt', '');
+
+              const h4 = document.createElement('h4');
+              h4.textContent = member.name;
+
+              const span = document.createElement('span');
+              span.textContent = member.role;
+
+              innerDiv.appendChild(img);
+              innerDiv.appendChild(h4);
+              innerDiv.appendChild(span);
+
+              memberContainer.appendChild(innerDiv);
+
+              teamContainer.appendChild(memberContainer);
+            });
+          </script>
+
 
         </div>
 
@@ -673,7 +752,7 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Workshops</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">programs</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
