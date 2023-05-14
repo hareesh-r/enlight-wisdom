@@ -1575,6 +1575,13 @@ section {
   animation-play-state: running;
 }
 
+
+@media only screen and (max-width: 415px) {
+  .scroll-element2 {
+    margin-left: 280px;
+  }
+}
+
 .scroll-parent:hover .scroll-element1,
 .scroll-parent:hover .scroll-element2 {
   animation-play-state: paused;
