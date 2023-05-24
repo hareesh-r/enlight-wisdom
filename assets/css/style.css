@@ -1558,7 +1558,6 @@ section {
   left: 0%;
   top: 0%;
   flex-wrap: nowrap;
-  margin-right: 125px;
   animation: primary 5s linear infinite;
   animation-play-state: running;
 }
