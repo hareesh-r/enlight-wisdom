@@ -657,7 +657,7 @@ section {
 
 .clients img {
   width: 50%;
-  filter: grayscale(100);
+  /* filter: grayscale(100); */
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
@@ -1570,7 +1570,7 @@ section {
   left: 0%;
   top: 0%;
   flex-wrap: nowrap;
-  margin-left: 125px;
+  margin-left: 18vw;
   animation: secondary 5s linear infinite;
   animation-play-state: running;
 }
