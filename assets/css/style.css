@@ -1632,7 +1632,15 @@ section {
   background-position: right;
 }
 
+.internship-programs {
+  background-image: url("https://img.icons8.com/external-flaticons-lineal-color-flat-icons/48/external-internship-job-search-flaticons-lineal-color-flat-icons-2.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 .career-guidance h5,
+.internship-programs h5,
+.internship-programs h3,
 .itsp h5,
 .college h5,
 .school h5,
