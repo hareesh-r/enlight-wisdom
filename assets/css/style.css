@@ -61,7 +61,7 @@ img {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
-#preloader {
+/* #preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -104,7 +104,32 @@ img {
   100% {
     transform: rotate(360deg);
   }
+} */
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: #fff;
 }
+
+#preloader img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px; /* Adjust the width as per your GIF dimensions */
+  height: 100px; /* Adjust the height as per your GIF dimensions */
+}
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
