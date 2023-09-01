@@ -914,6 +914,9 @@ section {
 .programmes .programmes-item .programmes-info {
   opacity: 1;
   bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /*--------------------------------------------------------------
