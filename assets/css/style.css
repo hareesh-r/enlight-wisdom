@@ -803,7 +803,7 @@ section {
   color: #fff;
 }
 
-.cta .cta-btn:hover {
+.cta .cta-btn{
   background: #f58212;
   border: 2px solid #f58212;
 }
