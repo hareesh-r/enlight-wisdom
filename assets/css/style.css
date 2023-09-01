@@ -762,7 +762,7 @@ section {
 }
 
 .programs .icon-box:hover .icon::before {
-  background: #f58212;
+  background: #f7b97d;
 }
 
 .programs .icon-box:hover h4 a,
@@ -1742,6 +1742,9 @@ section {
   color: #fff;
   background: #f58212;
   border: 5px double;
+}
+.owl-image {
+  width: auto !important;
 }
 
 .our-services-single-box {
